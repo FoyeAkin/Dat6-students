@@ -1,0 +1,13 @@
+-I plan to predict annual restaurant revenue for a set of Turkish restaurants
+-The project is from the Kaggle competition, "Restaurant Revenue Prediction,' hosted by Tab Food Investments
+-The website for the project is http://www.kaggle.com/c/restaurant-revenue-prediction
+-The training data is available in one CSV file. Each record represents one restaurant and contains the following fields:
+	-ID of the restuarant
+	-Opening date of the restaurant
+	-City the restaurant is located in
+	-City Group (Big cities or Other)
+	-Type of the restuarant (whether it is food court, inline, drive through, or mobile)
+	-37 other variables, which consist of demographic data, real estate data, and commercial data
+	-Annual revenue
+-The test data set contains all of the same fields as the training set, except that revenue is blank (this is what I will need to predict)
+-The training data set is relatively small (only 137 records) and is pretty clean
