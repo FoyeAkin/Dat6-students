@@ -1,0 +1,124 @@
+Peetla_Project for DAT6- Data Science Course;
+
+Objective of the Project: I would like to predict seasonality of crime in within Chicago City Area.
+I will be using Chicago City Crime data. I would like to understand the seasonality of crime, predictive analysis of crime
+rates and a time lapse of crime per district compared to crime rates overall. 
+This will be useful information for local citizens, tourists and local officials (police force and public office); 
+in addition it bears the potential of being beneficial for cross-national comparison by federal officials. 
+
+Information about the data.
+I have downloaded the data from following link. https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2 
+This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that
+occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the 
+Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting)
+system.http://data.cityofchicago.org/Public-Safety/Chicago-Police-Department-Illinois-Uniform-Crime-R/c7ck-438e
+
+I have started working on the Data exploration.Code is shown in blue color text and corresponding output is shown in red color text
+
+CrimeData = pd.read_csv('../data/Crime.csv')
+CrimeData
+4591672 rows × 22 columns
+CrimeData.dtypes
+Out[17]: 
+ID                        int64
+Case Number              object
+Date                     object
+Block                    object
+IUCR                     object
+Primary Type             object
+Description              object
+Location Description     object
+Arrest                   object
+Domestic                 object
+Beat                    float64
+District                float64
+Ward                    float64
+Community Area           object
+FBI Code                 object
+X Coordinate            float64
+Y Coordinate            float64
+Year                    float64
+Updated On               object
+Latitude                float64
+Longitude               float64
+Location                 object
+dtype: object
+
+# Renamed column “Primary Type” to “CrimeType”
+CrimeData.rename(columns={'Primary Type':'CrimeType'}, inplace=True)
+
+# Selected 4 columns out of 22 columns
+CD = CrimeData[['CrimeType', 'Arrest', 'Year', 'Date']]
+
+CD.head(10)
+CrimeType 	Arrest Year  Date
+0                 WEAPONS VIOLATION   True  2015  04/01/2015 11:55:00 PM
+1                           BATTERY  False  2015  04/01/2015 11:55:00 PM
+2                             THEFT  False  2015  04/01/2015 11:50:00 PM
+3                     OTHER OFFENSE   True  2015  04/01/2015 11:50:00 PM
+4                           ASSAULT  False  2015  04/01/2015 11:50:00 PM
+5                           BATTERY  False  2015  04/01/2015 11:49:00 PM
+6                             THEFT   True  2015  04/01/2015 11:48:00 PM
+7                           BATTERY  False  2015  04/01/2015 11:48:00 PM
+8                         NARCOTICS   True  2015  04/01/2015 11:48:00 PM
+9                     OTHER OFFENSE  False  2015  04/01/2015 11:45:00 PM
+10                        NARCOTICS   True  2015  04/01/2015 11:42:00 PM
+# Convert "Arrest" column to numeric 
+CD['Arrest'].replace(True,1, inplace=True)
+CD['Arrest'].replace(False,0, inplace=True)
+CD.Arrest.value_counts()    # Counting total number of  actual “Arrest” in crime data .
+Out[37]: 
+0	3271497        
+1   1320174     
+dtype: int64
+CD.groupby('Year').Arrest.value_counts()      # Grouping Arrest- By Year:
+Out[38]: 
+Year   
+2003  0    193357
+      1     79881
+2004  0    324618
+      1    144654
+2005  0    312676
+      1    140877
+2006  0    312547
+      1    135353
+2007  0    304954
+      1    131807
+2008  0    316907
+      1    109924
+2009  0    281689
+      1    110710
+2010  0    269580
+      1    100360
+2011  0    255162
+      1     96078
+2012  0    245064
+      1     90271
+2013  0    220080
+      1     86033
+2014  0    194503
+      1     77633
+2015  0     40360
+1	16593
+# Setting CrimeType as Index
+CD.set_index('CrimeType', inplace=True)  
+CD.set_index('CrimeType', inplace=True)
+CD.head()
+CD.index
+CD.index.is_unique
+
+CD.loc['THEFT',:]
+CD[CD.CrimeType == 'THEFT']
+CD[CD.CrimeType == 'BATTERY']
+CD[CD.CrimeType == 'BURGLARY']
+CD.Arrest.value_counts().plot(kind='bar', title='CRIME DATA')
+plt.xlabel('Arrest (False) vs Arrest (True)')
+plt.ylabel('Count')
+plt.show() # show plot window (if it doesn't automatically appear)
+plt.savefig('CRIME_DATA.png') # save plot to file
+ 
+CD.Date.min()
+Out[138]: '01/01/2004 01:00:00 AM'
+CD.Date.max()
+Out[139]: '12/31/2014 12:59:00 PM'
+#Currently working on the code to explore the crimes that le
