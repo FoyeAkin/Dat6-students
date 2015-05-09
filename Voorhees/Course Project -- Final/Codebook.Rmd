@@ -1,5 +1,5 @@
-##CODE BOOK:  
-##from: http://www.kaggle.com/c/bike-sharing-demand/data  
+#CODE BOOK:  
+###originally from: http://www.kaggle.com/c/bike-sharing-demand/data  
 
 The features produced from `01_Import_and_clean.py` in this directory are as below:
 ***  
