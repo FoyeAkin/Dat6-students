@@ -12,14 +12,11 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
 * `fall`  
 * `winter`  
 * `holiday` - a dummy variable denoting whether the day is considered a holiday  
-* `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday  
+* `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday     
 ***  
   
 ##Weather Variables
-* item 2
-     + sub-item 1
-     + sub-item 2
-
+  
 * `weather`:
      + 1-Clear, Few clouds, Partly cloudy, Partly cloudy  
      + 2-Mist  
@@ -35,16 +32,18 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
 * `humidity` - relative humidity  
 * `windspeed` - wind speed  
 
-##Lag for Weather Variables post-stubs
+##Lag for Weather Variables post-stubs  
+  
 * `_ravg_x` - rolling averages over period x 
 * `_l_x` - lag of x  
 ***  
   
-##Other transformation of variables post-stubs    
-*`_sq` - squared value  
+##Other transformation of variables post-stubs   
+  
+* `_sq` - squared value    
 ***  
   
 ##Demand Variables
-* `casual` - number of non-registered user rentals initiated
-* `registered` - number of registered user rentals initiated
-* `count` - number of total rentals
+* `casual` - number of non-registered user rentals initiated  
+* `registered` - number of registered user rentals initiated  
+* `count` - number of total rentals  
