@@ -12,7 +12,8 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
 * `fall`  
 * `winter`  
 * `holiday` - a dummy variable denoting whether the day is considered a holiday  
-* `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday     
+* `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday  
+   
 ***  
   
 ##Weather Variables
@@ -36,11 +37,13 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
   
 * `_ravg_x` - rolling averages over period x 
 * `_l_x` - lag of x  
+   
 ***  
   
 ##Other transformation of variables post-stubs   
   
-* `_sq` - squared value    
+* `_sq` - squared value  
+   
 ***  
   
 ##Demand Variables
