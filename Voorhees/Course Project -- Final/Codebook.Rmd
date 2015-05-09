@@ -2,8 +2,8 @@
 ##from: http://www.kaggle.com/c/bike-sharing-demand/data  
 
 The features produced from `01_Import_and_clean.py` in this directory are as below:
+***  
   
-***
 ##Time Variables
 * `datetime` - date variable that has been separated out into `day` , `month` , `year` , `hour` variables  
 * `season`  
@@ -13,9 +13,8 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
 * `winter`  
 * `holiday` - a dummy variable denoting whether the day is considered a holiday  
 * `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday  
+***  
   
-  
-***
 ##Weather Variables
 * item 2
      + sub-item 1
@@ -40,9 +39,11 @@ The features produced from `01_Import_and_clean.py` in this directory are as bel
 * `_ravg_x` - rolling averages over period x 
 * `_l_x` - lag of x  
 ***  
-##Other transformation of variables post-stubs
-*`_sq` - squared value 
+  
+##Other transformation of variables post-stubs    
+*`_sq` - squared value  
 ***  
+  
 ##Demand Variables
 * `casual` - number of non-registered user rentals initiated
 * `registered` - number of registered user rentals initiated
