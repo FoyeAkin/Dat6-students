@@ -125,7 +125,7 @@ count = [0 if i <0 else i for i in count]
 
 df_submission = pd.DataFrame(count, submit.datetime, columns = ['count'])
 
-pd.DataFrame.to_csv(df_submission ,'linear_model.csv')
+pd.DataFrame.to_csv(df_submission ,'./submission_files/linear_model.csv')
 
 '''
 USE STATSMODELS TO BETTER UNDERSTAND COEFFICIENTS
