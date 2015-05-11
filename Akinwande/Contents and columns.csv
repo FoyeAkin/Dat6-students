@@ -1,0 +1,615 @@
+IDHH,ncvs id for households
+IDPER,ncvs id for persons
+V4001,incident record type
+V4002,ICPSR Household identification number
+V4003,year and quarter identification
+V4004,sample number
+V4005,scrambled control number
+V4006,household number
+V4008,panel and rotation group
+V4009,person sequence number
+V4010,Line number of respondent
+V4011,number of screen question in which incident was reported
+V4012,incident number
+V4013,occurred while at current address
+V4014,month incident occurred
+V4015,Year incident occurred
+V4016,How many times incidents occurred (6 months)
+V4017,How many incidents occurred
+V4018,Are incidents similar in detail or are they different crimes
+V4019,check item enough detail to distinguish incidents
+V4021B,about what time did incident occur
+V4022,n what citty town village did incident occur
+V4023,same county and state as resident
+V4023B,occurred on indian reservation or american indian land
+V4024,where did incident happen
+V4025,did offender have a right to be there
+V4026,did offender get inside
+V4027,did offender try to get inside
+V4028,evidence of forcible entry
+V4029,evidence of forcible entry
+V4030,evidence of forcible entry window frame glass
+V4031,evidence of forcible entry window screen
+V4032,evidence of forcible entry window lock
+V4033,evidence of forcible entry other window damage
+V4034,evidence of forcible entry door frame glass
+V4035,evidence of forcible entry door screen
+V4036,evidence of forcible entry door lock or handle
+V4037,evident of forcible entry other door damage
+V4038,evidence of forcible entry other than window or door
+V4039,residue evidence of forcible entry
+V4040,how did offender get in
+V4041A,was it your school
+V4041B,what part school building happen
+V4041C,was area open to public
+V4042,incident occurred indors outdoors or both
+V4043,how far from home
+V4044,respondent present original
+V4045,respondent present allocated
+V4046,which household members present original
+V4047,which household members were present allocated
+V4048,did you personally see an offender
+V4049,what was weapon
+V4050,what was weapon
+V4051,weapon hand gun
+V4052,weapon other gun
+V4053,weapon knife
+V4054,weapon sharp object
+V4055,weapon blunt object
+V4056,weapon other
+V4057,weapon gun type unkown
+V4058,residue type of weapon
+V4059,offender hit or attack original
+V4060,offender hit or attack allocated
+V4061,offender try to attack original
+V4062,offender try to attack allocated
+V4063,offender threaten with harm original
+V4064,offender threaten with arm allocated
+V4065,what happened
+V4066,what happened something taken
+V4067,what happened attempted theft
+V4068,what happened harrassed abusive language
+V4069,what happened sexual contact with force
+V4070,what happened sexual contact without force
+V4071,what happned forcible entry of home
+V4072,what happened forcible entry of car
+V4073,what happened property damage
+V4074,what happned attempted property damage
+V4075,what happened other type of incident
+V4076,residue what happened
+V4077,how offender threatened or tried to attack
+V4078,item recovered purse
+V4079,verbal threat to kill
+V4080,Verbal threat of attack other than kill or rape
+V4081,Verbal threat of sexual assault other than rape
+V4082,Unwanted sexual contact with force
+V4083,attempted threat sexual contact no force
+V4084,Wepon present
+V4085,Shot at but missed
+V4086,Attempted attack with knife or sharp weapon
+V4087,Attempted attack with weapon other than gun/knife/sharp weapon
+V4088,Object thrown at person
+V4089,Followed or Surrounded
+V4090,"attempt/threat hit, grab, jump"
+V4091,attempt/threat other
+V4092,Residue How threatened
+V4093,How attacked
+V4094,Attacked Raped
+V4095,Attacked Tried to rape
+V4096,Attacked Sexual Assault
+V4097,attacked shot
+V4098,attacked shot at but missed
+V4099,attacked hit with gun held in hand
+V4100,attacked stabbed cut with knife
+V4101,attacked attempted attack with knife
+V4102,attacked hit by object held in hand
+V4103,attacked hit by thrown object
+V4104,attacked attempted attack with other weapon
+V4105,attacked hit slapped knocked down
+V4106,attacked grabbed held tripped etc
+V4107,attacked other tye of attack
+V4108,residue how attacked
+V4109,offender threatened to hurt before attack
+V4110,injuries suffered
+V4111,injuries none
+V4112,injuries rape injuries
+V4113,injuries attempted rape injuries
+V4114,injuries sexual assault injuries
+V4115,injuries knife stab wounds
+V4116,injuries gun shot bullet wounds
+V4117,injuries broken bones or teeth
+V4118,injuries internal injuries
+V4119,injuries knocked unconscious
+V4120,What were the injuries suffered
+V4121,Other injuries suffered
+V4122,residue type of injury
+V4123,injuries from weapon other than gun/knife
+V4124,Third which injury caused by a weapon other than gun/knife
+V4125,Second Which injury caused by a weapon other than gun/knife
+V4126,Which injury cause by weapen other than gun/knife
+V4127,Injured enough to receive medical care
+V4128,Where was medical care received
+V4129,med care at scene
+V4130,med care home neighbor's friend's
+V4131,med care health unit first aid st
+V4132,med care doctor's office clinic
+V4133,med care emergency room clinic
+V4134,med care hospital not emergency room
+V4135,med care other location
+V4136,residue medical care site
+V4137,stay overnight at hospital
+V4138,number of day in hospital
+V4139,covered by medical insurance
+V4140,total amount of medical expenses
+V4140A,pregnancy status
+V4140B1,victim of crime lead to problems job schoolwork boss coworkers peers
+V4140B10,did you feel unsafe
+V4140B11,did you fee other
+V4140B12,seek professional help for feelings experienced as a victim of crime
+V4140B13,kind of professional help seek
+V4140B14,professional help counseling therapy
+V4140B15,professional help medication
+V4140B16,professional help visited doctor or nurse
+V4140B17,professional help visited er/hospital/clinic
+V4140B18,professional help other
+V4140B19,residue kind of professional help seek
+V4140B2,victim of crime lead to problems family members friends
+V4140B20,physical problems headaches
+V4140B21,physical problems trouble sleeping
+V4140B22,physical problems changes eating/drinking
+V4140B23,physical problems upset stomach
+V4140B24,physical problems fatigue
+V4140B25,physical problems high blood pressure
+V4140B26,physcal problems muscle tension
+V4140B27,physical problems other
+V4140B28,seek professional medical help for physical problems
+V4140B29,what kind of professional help did you seek
+V4140B3,how distressing being a victim
+V4140B30,professional/medical help counseling/therapy
+V4140B31,professional/medical help medication
+V4140B32,professional/medical help visited doctor/nurse
+V4140B33,professional/medical help visited er/hospital/clinic
+V4140B34,professional/medical help other
+V4140B35,residue kind of professional/medical help seek
+V4140B4,did you feel worried or anxious
+V4140B5,did you feel angry
+V4140B6,did you feel sad or depressed
+V4140B7,did you feel vulnerable
+V4140B8,did you feel violated
+V4140B9,did you feel mistrust
+V4141,idea of self protective action
+V4142,took self protective action during incident
+V4143,self protective action taken
+V4144,attacked offender with gun
+V4145,attacked offender with other weapon
+V4146,attacked offender without weapon
+V4147,threatened offender with gun
+V4148,threatened offender with other weapon
+V4149,threatened to injure without weapon
+V4150,action defended self or property
+V4151,action chased offender
+V4152,yelled at offender/turned on lights
+V4153,cooperated with offender
+V4154,argued or reasoned with offender
+V4155,"ran away, hid, locked door"
+V4156,called police or guard
+V4157,tried to attract attention
+V4158,action screamed from pain fear
+V4159,action other
+V4160,residue sp action  taken
+V4161,sp action before during after injury
+V4162,when sp action before injury
+V4163,when sp action after injury
+V4164,when sp action during injury
+V4165,residue when sp action
+V4166,did self protective action help
+V4167,how did sp action help
+V4168,sp action help avoided injury
+V4169,sp action help scared offender off
+V4170,actions of others help helped respondent escapre
+V4171,actions of others help hpeled proect property
+V4172,actions of others help helped protect other people
+V4173,actions of others help other type help
+V4174,residue actions of others helped
+V4175,did sp actions make situation worse
+V4176,how did sp actions hurt situation
+V4177,actions of other hurt led to injury
+V4178,actions of others hurt more propery damage
+V4179,actions of others hurt others hurt worse
+V4180,action hurt offender got away
+V4181,actions hurt make offender angrier
+V4182,action hurt other ways
+V4183,residue action hurt
+V4184,anyone else present
+V4185,actions of others help
+V4186,how others helped
+V4187,others helped prevent injury
+V4188,How did others help situation when they scared off offender
+V4189,others helped scared off offender
+V4190,others helped situation protected property
+V4191,others helped situation protected other people
+V4192,others helped situation other ways
+V4193,residue others helped
+V4194,did actions of others worsen situation
+V4195,how others actions worsened situation
+V4196,others hurt situation led to respondent injury
+V4197,others hurt situation more property loss
+V4198,other people hurt situation they got hurt
+V4199,other people hurt situation offender got away
+V4200,others hurt the situation made offender angrier
+V4201,others hurt the situation hurt other ways
+V4202,residue how others action hurt
+V4203,any others harmed or robbed
+V4204,number of others harmed or robbed original
+V4205,number of others harmed or robbed allocated
+V4206,number of household members harmed or robbed original
+V4207,number of household members harmed or robbed allocated
+V4208,check item respondent used physical force against offender
+V4209,who first used physical force
+V4210,what were the injuries you suffered
+V4211,injuries none
+V4212,injuries rape injuries
+V4213,injuries attempted rape injuries
+V4214,injuries sexual assault injuries
+V4215,injuries knife stab wounds
+V4216,injuries gun shot bullet wounds
+V4217,injuries broken bones or teeth
+V4218,learned offenders admitted
+V4219,learned offenders had threatened
+V4220,stolen property found on offender
+V4221,figured it out by motive/opportunity
+V4222,learned other way
+V4223,residue learned 
+V4224,What happened
+V4225,Something taken
+V4226,attempted theft
+V4227,harrassed/abusive language
+V4228,forcible entry of home
+V4229,forcible entry of car
+V4230,what happened property damage
+V4231,what happened attempted property damage
+V4232,what happened other type incident
+V4233,residue what happened
+V4234,one or more than one offender
+V4235,know anything about any offenders
+V4236,single offender sex
+V4237,single offender age
+V4238,single offender gang member
+V4239,single offender drinking or drugs
+V4240,single offender drinking or drugs which
+V4241,single offender stranger
+V4242,singer offender would repondent recognize offender
+V4243,single offender how well known
+V4244,single offender know where offender is
+V4245,singer offender how did respondent know offender
+V4247,single offender only crime against respondent or household
+V4248,number of offenders
+V4249,multiple offenders sex
+V4250,multple offenders mostly male or female
+V4251,multiple offenders age of youngest
+V4252,multiple offenders oldest
+V4253,multlple offenders gang members
+V4254,multple offenders drinking/drugs
+V4255,multple offenders drinking/drugs which
+V4256,multple offenders all strangers
+V4257,multple offenders culd recognize
+V4258,multple offenders how well known
+V4259,multple offender known by sight only
+V4260,multiple offenders known casual acquaintance
+V4261,multiple offfenders known well known
+V4262,residue multiple offenders how well known
+V4263,multiple offenders repondent knows how to find
+V4264,relation to multiple offenders
+V4265,multiple offenders spouse
+V4266,multiple offenders exspouse
+V4267,multiple offenders parent/step parent
+V4268,multiple offenders child/step child
+V4269,multiple offenders brother/sister
+V4270,multiple offenders other realtive
+V4271,multple offenders boyfriend girlfriend ex
+V4272,multple offenders friend or ex-friend
+V4273,multple offenders roommate
+V4274,multple offenders schoolmate
+V4275,multple offenders neighbor
+V4276,multple offenders custormer/client
+V4277,multple offenders other norelative
+V4277A,multple offenders patient
+V4277B,multple offenders supervisor
+V4277C,multple offenders empoyee current or former
+V4277D,multple offenders coworker
+V4277E,multple offenders teacher/school staff
+V4278,reside relation to multiple offenders
+V4279,multple offender race
+V4280,multiple offenders race white
+V4281,multple offenders race black
+V4283,multiple offenders race don't know
+V4284,reside multple offenders race
+V4286,multple offenders only crime
+V4287,something taken original
+V4288,something taken allocated
+V4289,attempted theft originl
+V4290,attempted theft allocated
+V4291,what did offender try to take
+V4292,attempted theft cash
+V4293,attempted theft purse
+V4294,attemtped theft wallet
+V4295,attempted theft credit cards
+V4296,attempted theft car
+V4297,attempted theft other motor vehicle
+V4298,attempted theft motor vehicle part
+V4299,attempt theft gasoline/oil
+V4300,attempted theft bicycle
+V4301,attempted theft tv stereo
+V4302,attempted theft silver china art
+V4303,attempted theft household items
+V4304,attempted theft personal effects
+V4305,attempted theft hand gun
+V4306,attempted theft other gun
+V4307,attempted theft other
+V4308,attempted theft don't know
+V4309,residue what offender tried to take
+V4310,owner of attempted theft item
+V4311,check item first line number of other owner theft items
+V4312,check item second line number of other owner theft items
+V4313,check item third line number of other owner theft items
+V4314,theft item in/attached to motor vehicle
+V4315,cash/wallet on person original
+V4316,cash/wallet on person allocated
+V4317,other items on person
+V4318,first attemped theft item on person
+V4319,second attempted theft item on person
+V4320,hird attempted theft item on person
+V4321,value of cash taken
+V4322,type of property taken
+V4323,item taken only cash
+V4324,item taken purse
+V4325,item  taken wallet
+V4326,item taken credit cards
+V4327,item taken car
+V4328,item taken other motor vehicle
+V4329,item taken part of motor vehicle
+V4330,item taken unattached motor vehicale part
+V4331,item taken gasoline oil
+V4332,item taken bicycle or parts
+V4333,"item taken tv, stereo, appliances"
+V4334,item taken silver china
+V4335,item take other household effects
+V4336,"item taken electronic, photo gear"
+V4337,item taken clothing luggage
+V4338,item taken jewelry watch keys
+V4339,Collections taken
+V4340,item taken toys recreation equipment
+V4341,item taken other personal objects
+V4342,item taken handgun
+V4343,item taken other firearm
+V4344,item taken tools machines
+V4345,item taken farm garden produce
+V4346,item taken animals pet or livestock
+V4347,item taken food liquor
+V4348,item taken other items taken
+V4349,item taken don’t know what taken
+V4350,residue what taken
+V4351,did the stolen property belong to you personally
+V4352,which household member owned stolen property
+V4353,second which household member owned stolen property
+V4354,thir which household member owned stolen property
+V4355,permission to use motor vehicle given to offender
+V4356,did offender return car this time
+V4357,stolen articles in or attached to car
+V4357A,How Many Handguns Taken
+V4357B,How many other types of firearms taken
+V4358,was the cash/wallet/purse on your person
+V4359,allocated was the cash/wallet/purse on your person
+V4360,other items on person
+V4361,first item taken on person
+V4362,second item taken on person
+V4363,third item taken on person
+V4364,value of property taken
+V4365,how did respondent decide value
+V4366,decided value original cost
+V4367,decided value replacement cost
+V4368,decided value personal estimate of current value
+V4369,decided value insurance estimate
+V4370,decided value police estimate
+V4371,decided value don't know how decided value
+V4372,decided value some other way
+V4373,residue how decided value
+V4374,stolen items or money recovered
+V4375,value of cash recovered
+V4376,type of property recovered
+V4377,item recovered cash only
+V4378,item recovered purse
+V4379,item recover wallet
+V4380,item recovered credit cards
+V4381,item recovered motor vehicle
+V4382,item recovered other property
+V4383,residue type of property recovered
+V4384,check item  ithem other than cash checks recovered
+V4385,value of property aftre recovered
+V4386A,theft reported to insurance company
+V4387,anything damaged
+V4388,damaged items repaired or replaced
+V4389,cost to repair/replace damaged item
+V4390,Amount paid to repairs/replace damaged items
+V4391,Who paid/will pay for repairs
+V4392,Items not repaired
+V4393,House Hold Member Paid for repairs
+V4394, Landlord Paid for Repairs
+V4395,Victim or Household Insurance paid for repairs
+V4396,Offender paid for repairs
+V4397,Other Person Paid
+V4398,Residue who paid repairs
+V4399,Reported to police
+V4400,How did police find out
+V4401,reason not reported
+V4402,reason not reported reported to different official
+V4403,reason not reported personal matter
+V4404,reason not reported minor crime no loss
+V4405,reason not reported child offender
+V4406,reason not reported not clear a crime
+V4407,reason not reported no insurance
+V4408,reason not reported found out too late
+V4409,reason not reported cant recover property
+V4410,reason lack of proof
+V4411,reason police triflent
+V4412,reason police inefficient
+V4413,reason police bias
+V4414,reason offender police
+V4415,reason protect offender
+V4416,reason advised not to report
+V4417,reason afraid of reprisal
+V4418,reason too inconvenient
+V4419,reason other
+V4420,reason not reported not present don’t know
+V4421,residue not reported
+V4422,most important reason not reported
+V4423,reason for reporting to police
+V4424,reason reported stop this incident
+V4425,reason reported needed help injured
+V4426,reason reported recover property
+V4427,reason reported collect insurance
+V4428,reason reported prevent future incident against respondent
+V4429,reason reported prevent crimes against anyone
+V4430,reason reported punish offender
+V4431,reason reported catch offender
+V4432,reason reported police surveilance
+V4433,reason reported duty to tell the police
+V4434,reason reportted other reason for report
+V4435,reason reported no other reason
+V4436,residue reason for police report
+V4437,most import reason for report
+V4438,police came when notified
+V4439,how soon did police respond
+V4440,type of police respone
+V4441,police response took report
+V4442,police response searched
+V4443,police response took evidence
+V4444,police response questioned witness/suspect
+V4445,police response promised surveilance
+V4446,police response promised investigate
+V4447,police response made arrest
+V4448,police response other response
+V4449,police response don't know type response
+V4450,residue type police response
+V4451,later contact with police
+V4452,police or respondent contacted
+V4453,in person or by phone
+V4454,police follow up
+V4455,police follow up took report
+V4456,police follow up questioning
+V4457,police follow up surveilance
+V4458,police follow up recovered property
+V4459,police follow up made arrest
+V4460,police follow up stayed in touch
+V4461,first item taken on person
+V4462,no police follow up
+V4463,don't know police follow up
+V4464,residue police follow up
+V4465,commplaint signed
+V4466,arrests or charges made
+V4467,what happened attempted theft
+V4468,was victim agency government or private
+V4469,contact with other authorities
+V4470,other authority contacted
+V4471,other authority contacted prosecutor
+V4472,other authority magistrate
+V4473,other authority court
+V4474,other authority probation juvvenile officer
+V4475,other authority other authority
+V4476,residue authority contacted
+V4477,expect further action from authoritities
+V4478,activity at the time of the incident
+V4479,employed at time of incident
+V4480,major activity during week of incident
+V4481A,is the business incorporated
+V4481B,business type
+V4482,type of industry at the time of incdient
+V4482A,multple offenders race american indian or alaska native
+V4482B,multiple offenders race asian
+V4483,job located in city/suburban/rural area
+V4484,incident occur at worksite
+V4485,usually work days or nights
+V4485A,current job
+V4486,lose work time due to injuries
+V4487,number of days lost due to injuries
+V4488,pay loss due to time loss from injuries
+V4489,amount of pay lost due to injuries
+V4490,reasom time lost other than injury
+V4491,reason time lost police activities
+V4492,reason time lost court activities
+V4493,reason time lost repair damage property
+V4494,reason time lost replace stolen items
+V4495,reason time lost other activvities
+V4496,reason time lost none
+V4497,residue reasons time lost
+V4498,total number of day lost
+V4499,any pay loss
+V4500,amount of pay lost due to injuries
+V4501,other household members lost time from work
+V4502,number of days lost by other hh members
+V4503,means of transportation
+V4504,number of times incident occurred last 6 months
+V4505,why don’t know how many times occurred
+V4506,months incident occurred quarter 1
+V4507,months incident occurred quarter 1
+V4508,months incident occurred quarter 3
+V4509,months incident occurred quarter 4
+V4510,incidents occur in same place
+V4511,incidents done by same person
+V4512,offender relation to respondent
+V4513,offender relation spouse
+V4514,offender relation exspouse
+V4515,offender relation parent
+V4516,offender relation other relative
+V4517,offender relation friend or ex-friend
+V4518,offender relation neighbor
+V4519,offender relation schoolmate
+V4520,offender relation roommate boarder
+V4522,offenders relationship to you
+V4522A,offender relation customer client
+V4522B,offender relation patient
+V4522C,offender relation supervisor
+V4522D,offender relation employee
+V4522E,offender relation coworker current or former
+V4522F,offender relation own child or stepchild
+V4522G,offender relation brother/sister
+V4522H,offender relation boyfriend or girlfriend or ex
+V4522I,offender relation teacher/school staff
+V4523,residue offender relation to respondent
+V4524,same thing happen each time
+V4525,is trouble still going on
+V4526,check item series crime
+V4526A,Do you have any reason to suspect hate crime
+V4526AA,suspect incident was hate crime
+V4526B,do you have any reason to suspect hate crime on beliefs
+V4526C,Do you have any reason to suspect hate crime on ethnicity
+V4526D,Do you have any reason to suspect hate crime on disability
+V4526E,Do you have ay reason to suspect hate crime on gender
+V4526F,Do you have any reason to suspect hate crime on sexuality
+V4526G,Do you have any reason to suspect hate crime on association
+V4526H,Do you have any reason to suspect hate crime on perception
+V4526H10,respondent believes they were victimized because health
+V4526H3A,are you deaf or do you have serious difficulty hearin
+V4526H3B,are you blind or do you have serious difficulty seeing even whenn earing glasses
+V4526H4,long lasting condition limits physical activities
+V4526H5,condition lasting 6 months or more difficult learning remembering concentrating
+V4526H6,condition lasting 6 months or more difficult dressing bathing getting around home
+V4526H7,condition lasting 6 months or more difficult going outside home to shop or offlice
+V4526H9,check item respondent report any health conditions
+V4526HA1,evidence of hate crime characteristics/religious beliefs
+V4526HA2,evidence of hate crime offender use abusive language
+V4526HA3,evidence of hate crime offender use hate symbols
+V4526HA4,police onfirm you targeted for characteristics/religiou
+V4526HA5,evidence of hate crime knows offenders previous did similar crimes
+V4526HA6,evidence of hc did incident occur near holiday/event/location associated with particular group
+V4526HA7,evidence of hate crime have other hc happened to you or in neighborhood
+V4526HA8,evidence of hate crime believe incident was hc but not enough evidence
+V4526HA9,ever told police you thought incident was a hc
+V4527,incident weight
+V4528,type of crime old
+V4529,type of crime
+V4531,year identification
+V4532,census victimization weight
+WGTVICCY,adjusted victimization weight collection year
+Year,YEAR
+YEARQ,year and quarter of interview
